@@ -2,8 +2,6 @@
 
 namespace Thruway\Transport;
 
-use Guzzle\Http\Message\Header\HeaderCollection;
-use Guzzle\Http\Message\Request;
 use Ratchet\WebSocket\Version\RFC6455\Frame;
 use React\EventLoop\LoopInterface;
 use React\Promise\Deferred;
